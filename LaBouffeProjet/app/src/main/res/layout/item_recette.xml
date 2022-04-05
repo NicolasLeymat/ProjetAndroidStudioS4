@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/Nom_Recette_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom Recette"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/photo_item"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/calories_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calories"
+        android:textSize="20sp"
+        android:layout_marginStart="-140dp"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/glucide_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-40dp"
+        android:layout_marginTop="80dp"
+        android:text="glucide" />
+
+    <TextView
+        android:id="@+id/proteine_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="proteine"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/gras_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gras"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp"/>
+
+    <ImageView
+        android:id="@+id/glucide_item_image"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/istockphoto"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="-205dp"/>
+
+    <ImageView
+        android:id="@+id/photo_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginStart="240dp"/>
+</LinearLayout>
